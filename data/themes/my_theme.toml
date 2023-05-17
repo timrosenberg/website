@@ -1,0 +1,49 @@
+# Theme metadata
+name = "My Theme"
+
+# Hunter Green = 006747
+# La Palma Green = 438d35
+
+[light]
+
+  # Primary
+  primary = "#2A3E2A"
+
+  link = "#006747"
+  link_hover = "#438d35"
+  # link_decoration = "underline"
+
+  # Menu
+  menu_primary = "#ECEFF4"
+  menu_text = "#006747"
+  menu_text_active = "#438d35"
+  menu_title = "#006747"
+
+  # Background
+  background = "#ECEFF4"
+
+  # Home sections
+  home_section_odd = "#ECEFF4"
+  home_section_even = "#ECEFF4"
+
+[dark]
+
+  # Primary
+  primary = "#ECEFF4"
+
+  link = "#ECEFF4"
+  link_hover = "#EBCB8B"
+  # link_decoration = "underline"
+
+  # Menu
+  menu_primary = "#ECEFF4"
+  menu_text = "#2E3440"
+  menu_text_active = "#5E81AC"
+  menu_title = "#5E81AC"
+
+  # Background
+  background = "#2E3440"
+
+  # Home sections
+  home_section_odd = "#2E3440"
+  home_section_even = "#2E3440"

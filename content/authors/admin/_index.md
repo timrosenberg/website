@@ -1,47 +1,43 @@
 ---
 # Display name
-title: Alice Wu 吳恩達
+title: Timothy Rosenberg, DMA
 
 # Full name (for SEO)
-first_name: Alice
-last_name: Wu
-
-# Status emoji
-status:
-  icon: ☕️
+first_name: Timothy
+last_name: Rosenberg
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Visiting Assistant Professor of Saxophone
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: Stetson University
+    url: https://www.stetson.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: Timothy Rosenberg is the Visiting Assistant Professor of Saxophone at Stetson University.
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Saxophone Performance and Pedagogy
+  - Chamber Music
+  - New and Avant-Garde Music
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
+    - course: DMA in Saxophone Performance
+      institution: Michigan State University
+      year: 2010
+    - course: MM in Saxophone Performance
+      institution: Michigan State University
       year: 2008
+    - course: BM in Music Performance and Education
+      institution: Ithaca College
+      year: 2005
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -51,27 +47,25 @@ social:
   - icon: envelope
     icon_pack: fas
     link: '/#contact'
-  - icon: twitter
+  - icon: mastodon
     icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-    label: Follow me on Twitter
+    link: https://mastodon.social/@timrosenberg
+    label: Follow me on Mastodon
     display:
       header: true
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-  - icon: github
+  - icon: facebook
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://facebook.com/timothyrosenberg
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/
-  # Link to a PDF of your resume/CV.
-  # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
-  # and uncomment the lines below.
-  - icon: cv
-    icon_pack: ai
-    link: uploads/resume.pdf
+    link: https://www.linkedin.com/in/timothyrosenberg/
+
+# Link to a PDF of your resume/CV.
+# To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
+# and uncomment the lines below.
+# - icon: cv
+#   icon_pack: ai
+#   link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
@@ -80,5 +74,8 @@ email: ''
 highlight_name: true
 ---
 
-Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-{style="text-align: justify;"}
+I am the Visiting Assistant Professor of Saxophone at Stetson University. My teaching interests include saxophone, chamber music, avant-garde music, jazz improvisation, and music technology.
+
+I frequently perform with several ensembles, including the Hippocrene Saxophone Quartet, the Brevard Symphony Orchestra and the Binghamton Symphony Orchestra. In the past I also performed with the H2 Quartet, the Hyperbaton Ensemble and the Cayuga Saxophone Quartet. I can be heard on _Intersecciones_ on the Ashes Records label and _Times & Spaces_ on Blue Griffin Records.
+
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
