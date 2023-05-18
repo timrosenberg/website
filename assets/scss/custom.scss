@@ -2,7 +2,38 @@
 
 h1, h2, h3, h4, h5, h6, {color: #2a3e2a;}
 
+// FIT NAME IN BIO ON ONE LINE
 .portrait-title h2 {
     color: #2a3e2a;
     font-size: 1.59em;
 }
+
+// POSITION THE "SEE ALL" BUTTON IN THE CONFERENFCES SECTION
+.ach-button .cta-group{
+    bottom: 0px;
+    right: 42%;
+    position: absolute;
+    float: right;
+}
+@media only screen and (min-width: 767px){
+    #conferences .card.course:last-of-type{
+        margin-bottom: 15%;
+    }
+}
+@media only screen and (min-width: 928px){
+    #conferences .card.course:last-of-type{
+        margin-bottom: 20%;
+    }
+}
+@media only screen and (min-width: 1200px){
+    #conferences .card.course:last-of-type{
+        margin-bottom: 15%;
+    }
+}
+@media only screen and (max-width: 767px){
+    #conferences .card.course:last-of-type{
+        margin-bottom: 20%;
+    }    
+}
+
+b, strong {font-weight: 700 !important;}

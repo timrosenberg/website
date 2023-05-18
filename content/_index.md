@@ -53,12 +53,12 @@ sections:
 #           description: 10%
 #           icon: camera-retro
 #           icon_pack: fas
-- block: experience
 
 #######################
 #  EXPERIENCE BLOCK   #
 #######################
 
+- block: experience
   id: experience
   content:
     title: Experience
@@ -171,6 +171,11 @@ sections:
         url: ''
   design:
     columns: '2'
+
+#######################
+#   BLOG POSTS BLOCK  #
+#######################
+
 - block: collection
   id: posts
   content:
@@ -198,81 +203,136 @@ sections:
     # Choose a layout view
     view: compact
     columns: '2'
+
+
+#######################
+#    PHOTOS BLOCK     #
+#######################
 - block: markdown
   id: gallery
   content: 
     title: Gallery
-      {{< gallery album="homepage" >}}
-- block: collection
-  id: featured
+       {{< gallery album="homepage" >}}
+
+#######################
+#  CONFERENCES BLOCK #
+#######################
+- block: accomplishments
+  id: conferences
   content:
-    title: Featured Publications
-    filters:
-      folders:
-        - publication
-      featured_only: true
+    title: Recent Con&shy;ference Presen&shy;tations
+    date_format: Mar. 2006
+    items:
+      - certificate_url: 
+        date_end: ''
+        date_start: '2023-03-01'
+        description: 'The University of Southern Mississippi, Hattiesburg, MS'
+        organization: North American Saxophone Alliance Biennial Conference
+        organization_url: http://www.saxophonealliance.org
+        title: New Ragtime Pieces for Saxophone and Piano
+        url: ''
+      - certificate_url: 
+        date_end: ''
+        date_start: '2020-03-01'
+        description: 'Arizona State University, Tempe, AZ'
+        organization: North American Saxophone Alliance Biennial Conference
+        organization_url: http://www.saxophonealliance.org
+        title: New Music from Florida-based Composers
+        url: ''
+      - certificate_url: 
+        date_end: ''
+        date_start: '2019-02-01'
+        description: 'The University of Florida, Gainesville, FL'
+        organization: Southeastern Saxophone Summit
+        organization_url: 
+        title: Music for Saxophone and Flute
+        url: ''
+      - certificate_url: 
+        date_end: ''
+        date_start: '2019-01-01'
+        description: 'With the Bethune-Cookman University Faculty Woodwind Quartet, Orlando, FL'
+        organization: Florida Flute Association 43rd Annual Membership Convention
+        organization_url: 
+        title: _Transmutations_ by Malcom Dedman
+        url: ''
+      - certificate_url: 
+        date_end: ''
+        date_start: '2019-01-01'
+        description: 'With the Bethune-Cookman University Faculty Woodwind Quartet, Orlando, FL'
+        organization: "The College Music Society's Southern Conference"
+        organization_url: 
+        title: _Transmutations_ by Malcom Dedman
+        url: ''
+      - certificate_url: 
+        date_end: ''
+        date_start: '2018-03-01'
+        description: 'The University of Cincinatti, Cincinatti, OH'
+        organization: North American Saxophone Alliance Biennial Conference
+        organization_url: http://www.saxophonealliance.org
+        title: Music for Saxophone and Electronics by Eve Beglarian and Roland Semadeni
+        url: ''
+    text: <div class="ach-button">{{< cta cta_text="See All Conferences" cta_link="/conferences" cta_new_tab="false" >}}</div>
   design:
     columns: '2'
-    view: card
+
+#######################
+#    EVENTS BLOCK     #
+#######################
+
 - block: collection
+  id: events
   content:
-    title: Recent Publications
-    text: |-
-      {{% callout note %}}
-      Quickly discover relevant content by [filtering publications](./publication/).
-      {{% /callout %}}
-    filters:
-      folders:
-        - publication
-      exclude_featured: true
-  design:
-    columns: '2'
-    view: citation
-- block: collection
-  id: talks
-  content:
-    title: Recent & Upcoming Talks
+    title: Recent & Upcoming Events
     filters:
       folders:
         - event
   design:
     columns: '2'
     view: compact
+
+#######################
+#    CONTACT BLOCK    #
+#######################
+
 - block: contact
   id: contact
   content:
     title: Contact
     subtitle:
     text: |-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
+      Send me your questions, thoughts, dream diarys, hopes, _fears_, recipes, secrets, short stories, poems, and really good jokes. 
     # Contact (add or remove contact options as necessary)
-    email: test@example.org
-    phone: 888 888 88 88
-    appointment_url: 'https://calendly.com'
+    # email: test@example.org
+    # phone: 888 888 88 88
+    # appointment_url: 'https://calendly.com'
     address:
-      street: 450 Serra Mall
-      city: Stanford
-      region: CA
-      postcode: '94305'
+      street: 421 Woodland Blvd.
+      city: DeLand
+      region: FL
+      postcode: '32723'
       country: United States
       country_code: US
-    directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-    office_hours:
-      - 'Monday 10:00 to 13:00'
-      - 'Wednesday 09:00 to 10:00'
+    # directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+    # office_hours:
+    #   - 'Monday 10:00 to 13:00'
+    #   - 'Wednesday 09:00 to 10:00'
     contact_links:
-      - icon: twitter
+      - icon: mastodon
         icon_pack: fab
         name: DM Me
-        link: 'https://twitter.com/Twitter'
-      - icon: skype
+        link: 'https://mastodon.social/timrosenberg'
+      - icon: facebook
         icon_pack: fab
-        name: Skype Me
-        link: 'skype:echo123?call'
-      - icon: video
-        icon_pack: fas
-        name: Zoom Me
-        link: 'https://zoom.com'
+        name: Friend Me
+        link: 'http://www.facebook.com/timothyrosenberg'
+      - icon: youtube
+        icon_pack: fab
+        name: Watch Me
+        link: 'http://www.youtube.com/timothyrosenberg'  
+      - icon: instagram
+        icon_pack: fab
+        name: Look at My Pics 🤷‍♂️
+        link: 'https://instagram.com/timothyrosenberg'
     # Automatically link email and phone or display as text?
     autolink: true
     # Email form provider
