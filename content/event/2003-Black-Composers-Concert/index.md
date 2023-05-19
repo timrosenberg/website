@@ -13,6 +13,7 @@ address:
   country:
 summary: In celebration of Black History Month I performed Samuel Coleridge Taylor's _Romance in G Major_ with Kristie Born. The _Romance_ in G Major was first published in 1900, when Samuel was 25 years old, as a piece for violin and orchestra.
 abstract:
+tags: [Performance]
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.

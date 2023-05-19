@@ -39,79 +39,150 @@ h1, h2, h3, h4, h5, h6, {color: #2a3e2a;}
 b, strong {font-weight: 700 !important;}
 
 // FIX GALLERY HEADER BOTTOM SPACING
-#gallery .gallery-grid{
-    margin-top: 30px;
-}
+// #gallery .gallery-grid{
+//     margin-top: 30px;
+// }
 
 // STYLE SEE ALL EVENTS BUTTON
-#events .see-all{
+#events .see-all a{
     font-family: Merriweather, sans-serif;
-    font-size: 0.8rem;
+    font-size: 0.8rem !important;
     font-weight: 400;
     text-transform: none;
     background-color: rgb(42, 62, 42);
     border-bottom-color: rgb(42, 62, 42);
-border-bottom-left-radius: 6.3px;
-border-bottom-right-radius: 6.3px;
-border-bottom-style: solid;
-border-bottom-width: 1px;
-border-image-outset: 0;
-border-image-repeat: stretch;
-border-image-slice: 100%;
-border-image-source: none;
-border-image-width: 1;
-border-left-color: rgb(42, 62, 42);
-border-left-style: solid;
-border-left-width: 1px;
-border-right-color: rgb(42, 62, 42);
-border-right-style: solid;
-border-right-width: 1px;
-border-top-color: rgb(42, 62, 42);
-border-top-left-radius: 6.3px;
-border-top-right-radius: 6.3px;
-border-top-style: solid;
-border-top-width: 1px;
-box-sizing: border-box;
-color: rgb(255, 255, 255);
-cursor: pointer;
-display: inline-block;
-font-family: Merriweather, sans-serif;
-font-size: 16.8px;
-font-weight: 400;
-//height: 59.1172px
-line-height: 15.12px;
-list-style-image: none;
-list-style-position: outside;
-list-style-type: none;
-padding-bottom: 21px;
-padding-left: 21px;
-padding-right: 21px;
-padding-top: 21px;
-text-align: center;
-text-decoration-color: rgb(255, 255, 255);
-text-decoration-line: none;
-text-decoration-style: solid;
-text-decoration-thickness: auto;
-transition-delay: 0s, 0s, 0s, 0s;
-transition-duration: 0.15s, 0.15s, 0.15s, 0.15s;
-transition-property: color, background-color, border-color, box-shadow;
-transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
-user-select: none;
-vertical-align: middle;
-width: 205.422px;
--webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    border-bottom-left-radius: 6.3px;
+    border-bottom-right-radius: 6.3px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(42, 62, 42);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: rgb(42, 62, 42);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: rgb(42, 62, 42);
+    border-top-left-radius: 6.3px;
+    border-top-right-radius: 6.3px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255) !important;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Merriweather, sans-serif;
+    //font-size: 16.8px;
+    font-weight: 400;
+    // height: 59.1172px;
+    line-height: 15.12px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    text-align: center;
+    text-decoration-color: rgb(255, 255, 255) !important;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    transition-delay: 0s, 0s, 0s, 0s;
+    transition-duration: 0.15s, 0.15s, 0.15s, 0.15s;
+    transition-property: color, background-color, border-color, box-shadow;
+    transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+    user-select: none;
+    vertical-align: middle;
+    //width: 205.422px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-#events .see-all a{
-        background-color: white;
-        color: black;
-        border: 2px solid green;
-        padding: 10px 20px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-      }
+#events .see-all a:hover{
+    background-color: #1a271b;
+}
+#events .fa-angle-right{
+    display: none;
+}
+// STYLE SEE ALL CONFERENCES BUTTON
+#conferences .see-all a{
+    font-family: Merriweather, sans-serif;
+    font-size: 0.8rem !important;
+    font-weight: 400;
+    text-transform: none;
+    background-color: rgb(42, 62, 42);
+    border-bottom-color: rgb(42, 62, 42);
+    border-bottom-left-radius: 6.3px;
+    border-bottom-right-radius: 6.3px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(42, 62, 42);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: rgb(42, 62, 42);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: rgb(42, 62, 42);
+    border-top-left-radius: 6.3px;
+    border-top-right-radius: 6.3px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255) !important;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Merriweather, sans-serif;
+    //font-size: 16.8px;
+    font-weight: 400;
+    // height: 59.1172px;
+    line-height: 15.12px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    text-align: center;
+    text-decoration-color: rgb(255, 255, 255) !important;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    transition-delay: 0s, 0s, 0s, 0s;
+    transition-duration: 0.15s, 0.15s, 0.15s, 0.15s;
+    transition-property: color, background-color, border-color, box-shadow;
+    transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+    user-select: none;
+    vertical-align: middle;
+    //width: 205.422px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+#conferences .see-all a:hover{
+    background-color: #1a271b;
+}
+#conferences .fa-angle-right{
+    display: none;
+}
+
+// #events .see-all a{
+//         background-color: white;
+//         color: black;
+//         border: 2px solid green;
+//         padding: 10px 20px;
+//         text-align: center;
+//         text-decoration: none;
+//         display: inline-block;
+//       }
       
-#events .see-all a:hover, a:active {
-        background-color: green;
-        color: white;
-}
+// #events .see-all a:hover, a:active {
+//         background-color: green;
+//         color: white;
+// }

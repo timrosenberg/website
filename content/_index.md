@@ -216,68 +216,69 @@ sections:
   id: gallery
   content: 
     title: Gallery
-       {{< gallery album="homepage" >}}
+    text: |
+      {{< gallery album="homepage" >}}
 
 #######################
 #  CONFERENCES BLOCK #
 #######################
-- block: accomplishments
+- block: collection
   id: conferences
   content:
     title: Recent Con&shy;ference Presen&shy;tations
-    date_format: Mar. 2006
-    items:
-      - certificate_url: 
-        date_end: ''
-        date_start: '2023-03-01'
-        description: 'The University of Southern Mississippi, Hattiesburg, MS'
-        organization: North American Saxophone Alliance Biennial Conference
-        organization_url: http://www.saxophonealliance.org
-        title: New Ragtime Pieces for Saxophone and Piano
-        url: ''
-      - certificate_url: 
-        date_end: ''
-        date_start: '2020-03-01'
-        description: 'Arizona State University, Tempe, AZ'
-        organization: North American Saxophone Alliance Biennial Conference
-        organization_url: http://www.saxophonealliance.org
-        title: New Music from Florida-based Composers
-        url: ''
-      - certificate_url: 
-        date_end: ''
-        date_start: '2019-02-01'
-        description: 'The University of Florida, Gainesville, FL'
-        organization: Southeastern Saxophone Summit
-        organization_url: 
-        title: Music for Saxophone and Flute
-        url: ''
-      - certificate_url: 
-        date_end: ''
-        date_start: '2019-01-01'
-        description: 'With the Bethune-Cookman University Faculty Woodwind Quartet, Orlando, FL'
-        organization: Florida Flute Association 43rd Annual Membership Convention
-        organization_url: 
-        title: _Transmutations_ by Malcom Dedman
-        url: ''
-      - certificate_url: 
-        date_end: ''
-        date_start: '2019-01-01'
-        description: 'With the Bethune-Cookman University Faculty Woodwind Quartet, Orlando, FL'
-        organization: "The College Music Society's Southern Conference"
-        organization_url: 
-        title: _Transmutations_ by Malcom Dedman
-        url: ''
-      - certificate_url: 
-        date_end: ''
-        date_start: '2018-03-01'
-        description: 'The University of Cincinatti, Cincinatti, OH'
-        organization: North American Saxophone Alliance Biennial Conference
-        organization_url: http://www.saxophonealliance.org
-        title: Music for Saxophone and Electronics by Eve Beglarian and Roland Semadeni
-        url: ''
-    text: <div class="ach-button">{{< cta cta_text="See All Conferences" cta_link="/conferences" cta_new_tab="false" >}}</div>
+    count: 3
+    filters:
+      folders:
+        - event
+      tag: "Conference"
+    archive:
+      enable: true
+      text: See All Conferences
   design:
     columns: '2'
+    view: compact
+
+# - block: accomplishments
+#   id: conferences
+#   content:
+#     title: Recent Con&shy;ference Presen&shy;tations
+#     date_format: Mar. 2006
+#     items:
+#       - certificate_url: 
+#         date_end: ''
+#         date_start: '2019-02-01'
+#         description: 'The University of Florida, Gainesville, FL'
+#         organization: Southeastern Saxophone Summit
+#         organization_url: 
+#         title: Music for Saxophone and Flute
+#         url: ''
+#       - certificate_url: 
+#         date_end: ''
+#         date_start: '2019-01-01'
+#         description: 'With the Bethune-Cookman University Faculty Woodwind Quartet, Orlando, FL'
+#         organization: Florida Flute Association 43rd Annual Membership Convention
+#         organization_url: 
+#         title: _Transmutations_ by Malcom Dedman
+#         url: ''
+#       - certificate_url: 
+#         date_end: ''
+#         date_start: '2019-01-01'
+#         description: 'With the Bethune-Cookman University Faculty Woodwind Quartet, Orlando, FL'
+#         organization: "The College Music Society's Southern Conference"
+#         organization_url: 
+#         title: _Transmutations_ by Malcom Dedman
+#         url: ''
+#       - certificate_url: 
+#         date_end: ''
+#         date_start: '2018-03-01'
+#         description: 'The University of Cincinatti, Cincinatti, OH'
+#         organization: North American Saxophone Alliance Biennial Conference
+#         organization_url: http://www.saxophonealliance.org
+#         title: Music for Saxophone and Electronics by Eve Beglarian and Roland Semadeni
+#         url: ''
+#     text: <div class="ach-button">{{< cta cta_text="See All Conferences" cta_link="/conferences" cta_new_tab="false" >}}</div>
+#   design:
+#     columns: '2'
 
 #######################
 #    EVENTS BLOCK     #
@@ -291,6 +292,7 @@ sections:
     filters:
       folders:
         - event
+      tag: "Performance"
     archive:
       enable: true
       text: See All Events
@@ -353,6 +355,10 @@ sections:
         captcha: false
   design:
     columns: '2'
+
+#######################
+#  GALLERY CAPTIONS   #
+#######################
 
 gallery_item:
 - album: homepage

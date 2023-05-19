@@ -4,11 +4,11 @@
 title: "North American Saxophone Alliance Biennial Conference"
 event: North American Saxophone Alliance Biennial Conference
 event_url: http://saxophonealliance.org
-location: The University of Southern Mississippi
+location: Arizona State University
 address:
   street:
-  city: Hattiesburg
-  region: MS
+  city: Tempe
+  region: AZ
   postcode:
   country:
 summary:
@@ -17,12 +17,12 @@ share: false
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2023-03-30T12:00:00-05:00
-date_end: 2023-04-02T12:00:00-05:00
+date: 2020-03-06T00:00:00-04:00
+date_end: 2020-03-09T23:59:00-04:00
 all_day: true
 
 # Schedule page publish date (NOT event date).
-publishDate: 2023-05-18T15:01:56-04:00
+publishDate: 2023-05-19T14:56:30-04:00
 
 authors: []
 tags: [Conference]
@@ -67,15 +67,8 @@ slides: ""
 #   Otherwise, set `projects = []`.
 projects: []
 ---
-I proposed four new arrangements of ragtime pieces for saxophone and piano. These pieces will be valuable additions to the repertoire. They are challenging and exciting for the performers, yet accessible for any audience. <!--more-->
- 
-The pieces include works by three composers from Michigan: Charlotte Blake, William Bolcom, and William Albright. I conceived of this particular set of rags as a "conversation" between these three composers across time and space. Bolcom and Albright were colleagues and friends. As students of ragtime music, surely they were/are familiar with Charlotte Blake's music. Blake lived until 1979; so, it's possible they all actually met!
- 
-Ragtime music is exciting and fun for both performers and audiences. Given the success of works such as Jean Matitia's The Devil's Rag, and the numerous arrangements of Scott Joplin's music for saxophones, I believe these works will be adopted by the saxophone community and played often.
+I performed works by two Florida-based composers, Alex Burtzos and M. Shawn Hundley, with Hannah Creviston and George Weremchuk. <!--more-->
 
 ## Works Performed
-_All works arranged for saxophone and piano by Timothy Rosenberg_
-- _All Right! Albright: Grand Super Fantasy Rag_ by William Bolcom
-- _Curly_ by Charlotte Blake
-- _Morning Reveries_ by William Albright
-- _The Queen of Sheba: Slow Drag and Stomp_ by William Albright
+- _One Final Gyre_ by Alex Burtzos for soprano and tenor saxophone duo
+- _Four Miniatures_ by M. Shawn Hundley for soprano saxophone and piano

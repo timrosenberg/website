@@ -24,7 +24,7 @@ all_day: false
 publishDate: 2023-05-18T17:54:54-04:00
 
 authors: []
-tags: []
+tags: [Performance]
 
 # Is this a featured event? (true/false)
 featured: true
