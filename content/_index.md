@@ -4,13 +4,12 @@ title: 'Timothy Rosenberg: Saxophonist, Teacher, Technologist'
 date: 2023-05-17
 type: landing
 
-sections:
-- block: hero
-
 #######################
 #      HERO BLOCK     #
 #######################
 
+sections:
+- block: hero
   content:
     title: Hello!
     image: 
@@ -26,12 +25,17 @@ sections:
       gradient_end: '#429C80'
       gradient_start: '#006747'
       text_color_light: true
-- block: about.biography
-
+      image:
+        filename: background-image.png
+        size: cover
+        position: center
+        parallax: false
+      
 #######################
 #      BIO BLOCK      #
 #######################
 
+- block: about.biography
   id: about
   content:
     title: Biography
@@ -283,9 +287,13 @@ sections:
   id: events
   content:
     title: Recent & Upcoming Events
+    count: 3
     filters:
       folders:
         - event
+    archive:
+      enable: true
+      text: See All Events
   design:
     columns: '2'
     view: compact

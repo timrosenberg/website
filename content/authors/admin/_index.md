@@ -22,9 +22,10 @@ bio: Timothy Rosenberg is the Visiting Assistant Professor of Saxophone at Stets
 
 # Interests to show in About widget
 interests:
-  - Saxophone Performance and Pedagogy
+  - Music for Saxophone
   - Chamber Music
-  - New and Avant-Garde Music
+  - Jazz Improvisation
+  - Music Technology
 
 # Education to show in About widget
 education:
@@ -78,4 +79,4 @@ I am the Visiting Assistant Professor of Saxophone at Stetson University. My tea
 
 I frequently perform with several ensembles, including the Hippocrene Saxophone Quartet, the Brevard Symphony Orchestra and the Binghamton Symphony Orchestra. In the past I also performed with the H2 Quartet, the Hyperbaton Ensemble and the Cayuga Saxophone Quartet. I can be heard on _Intersecciones_ on the Ashes Records label and _Times & Spaces_ on Blue Griffin Records.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+<!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->
