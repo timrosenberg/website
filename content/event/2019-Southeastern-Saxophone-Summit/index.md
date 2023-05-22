@@ -11,7 +11,7 @@ address:
   region: FL
   postcode:
   country:
-summary: Music for Saxophone and Flute
+summary: 
 abstract:
 share: false
 
@@ -25,7 +25,7 @@ all_day: true
 publishDate: 2023-05-19T15:17:01-04:00
 
 authors: []
-tags: [Conference]
+tags: [Conferences]
 
 # Is this a featured event? (true/false)
 featured: false

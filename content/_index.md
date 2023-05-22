@@ -230,55 +230,13 @@ sections:
     filters:
       folders:
         - event
-      tag: "Conference"
+      tag: "Conferences"
     archive:
       enable: true
       text: See All Conferences
   design:
     columns: '2'
     view: compact
-
-# - block: accomplishments
-#   id: conferences
-#   content:
-#     title: Recent Con&shy;ference Presen&shy;tations
-#     date_format: Mar. 2006
-#     items:
-#       - certificate_url: 
-#         date_end: ''
-#         date_start: '2019-02-01'
-#         description: 'The University of Florida, Gainesville, FL'
-#         organization: Southeastern Saxophone Summit
-#         organization_url: 
-#         title: Music for Saxophone and Flute
-#         url: ''
-#       - certificate_url: 
-#         date_end: ''
-#         date_start: '2019-01-01'
-#         description: 'With the Bethune-Cookman University Faculty Woodwind Quartet, Orlando, FL'
-#         organization: Florida Flute Association 43rd Annual Membership Convention
-#         organization_url: 
-#         title: _Transmutations_ by Malcom Dedman
-#         url: ''
-#       - certificate_url: 
-#         date_end: ''
-#         date_start: '2019-01-01'
-#         description: 'With the Bethune-Cookman University Faculty Woodwind Quartet, Orlando, FL'
-#         organization: "The College Music Society's Southern Conference"
-#         organization_url: 
-#         title: _Transmutations_ by Malcom Dedman
-#         url: ''
-#       - certificate_url: 
-#         date_end: ''
-#         date_start: '2018-03-01'
-#         description: 'The University of Cincinatti, Cincinatti, OH'
-#         organization: North American Saxophone Alliance Biennial Conference
-#         organization_url: http://www.saxophonealliance.org
-#         title: Music for Saxophone and Electronics by Eve Beglarian and Roland Semadeni
-#         url: ''
-#     text: <div class="ach-button">{{< cta cta_text="See All Conferences" cta_link="/conferences" cta_new_tab="false" >}}</div>
-#   design:
-#     columns: '2'
 
 #######################
 #    EVENTS BLOCK     #
@@ -292,7 +250,7 @@ sections:
     filters:
       folders:
         - event
-      tag: "Performance"
+      tag: "Performances"
     archive:
       enable: true
       text: See All Events
@@ -363,7 +321,7 @@ sections:
 gallery_item:
 - album: homepage
   image: 2023-Feb-21-Poster.png
-  caption: "This is the caption."
+  caption: "Recital Poster for my Faculty Recital in 2023 featuring music by composers from under-represented groups for tenor saxophone. The complete recital can be streamed [here](/event/faculty-recital-music-for-tenor-saxophone-by-diverse-composers/)"
 
 - album: homepage
   image: hippocrene-quartet-2023.jpg

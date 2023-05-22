@@ -25,7 +25,7 @@ all_day: true
 publishDate: 2023-05-18T15:01:56-04:00
 
 authors: []
-tags: [Conference]
+tags: [Conferences]
 
 # Is this a featured event? (true/false)
 featured: false

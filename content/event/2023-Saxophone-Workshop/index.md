@@ -11,7 +11,7 @@ address:
   country:
 summary: 
 abstract:
-tags: [Teaching, Performance]
+tags: [Teaching, Performances]
 
 date: 2023-06-26T07:30:00-04:00
 date_end: 2023-07-01T11:00:00-04:00

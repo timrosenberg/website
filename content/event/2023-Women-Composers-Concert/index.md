@@ -11,7 +11,7 @@ address:
   country:
 summary: In celebration of Women's History Month I performed _Incandesence_ by Ida Gotkovsky with Kristie Born. Ida Gotkovsky is a French composer and pianist of Russian descent. She has written extensively for various instrumental ensembles and is particularly known for her compositions for wind instruments.
 abstract:
-tags: [Performance]
+tags: [Performances]
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
