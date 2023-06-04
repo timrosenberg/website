@@ -9,7 +9,7 @@ address:
   region: OH
   postcode:
   country:
-summary:
+summary: I performed two works for saxophone and electronics. One of these works, _I Will Not Be Sad In This World_ was a world premiere in this version.
 abstract:
 share: false
 date: 2018-03-08T00:00:00-04:00

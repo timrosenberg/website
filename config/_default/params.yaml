@@ -10,7 +10,8 @@ appearance:
   theme_night: My Theme
   font: classic
   font_size: L
-
+  
+require_fancybox: true
 # SEO
 
 marketing:

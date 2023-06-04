@@ -321,7 +321,7 @@ sections:
 gallery_item:
 - album: homepage
   image: 2023-Feb-21-Poster.png
-  caption: "Recital Poster for my Faculty Recital in 2023 featuring music by composers from under-represented groups for tenor saxophone. The complete recital can be streamed [here](/event/faculty-recital-music-for-tenor-saxophone-by-diverse-composers/)"
+  caption: 'Recital Poster for my Faculty Recital in 2023 featuring music by composers from under-represented groups for tenor saxophone. The complete recital can be streamed <a href="/event/faculty-recital-music-for-tenor-saxophone-by-diverse-composers/" style="color:#438d35;">here</a>'
 
 - album: homepage
   image: hippocrene-quartet-2023.jpg
