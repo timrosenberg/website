@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title: 'Timothy Rosenberg: Saxophonist, Teacher, Technologist'
-date: 2023-05-17
+date: 2023-07-29
 type: landing
 
 #######################
@@ -209,15 +209,15 @@ sections:
     columns: '2'
 
 
-#######################
-#    PHOTOS BLOCK     #
-#######################
-- block: markdown
-  id: gallery
-  content: 
-    title: Gallery
-    text: |
-      {{< gallery album="homepage" >}}
+# #######################
+# #    PHOTOS BLOCK     #
+# #######################
+# - block: markdown
+#   id: gallery
+#   content: 
+#     title: Gallery
+#     text: |
+#       {{< gallery album="homepage" >}}
 
 #######################
 #  CONFERENCES BLOCK #
@@ -314,36 +314,36 @@ sections:
   design:
     columns: '2'
 
-#######################
-#  GALLERY CAPTIONS   #
-#######################
+# #######################
+# #  GALLERY CAPTIONS   #
+# #######################
 
-gallery_item:
-- album: homepage
-  image: 2023-Feb-21-Poster.png
-  caption: 'Recital Poster for my Faculty Recital in 2023 featuring music by composers from under-represented groups for tenor saxophone. The complete recital can be streamed <a href="/event/faculty-recital-music-for-tenor-saxophone-by-diverse-composers/" style="color:#438d35;">here</a>'
+# gallery_item:
+# - album: homepage
+#   image: 2023-Feb-21-Poster.png
+#   caption: 'Recital Poster for my Faculty Recital in 2023 featuring music by composers from under-represented groups for tenor saxophone. The complete recital can be streamed <a href="/event/faculty-recital-music-for-tenor-saxophone-by-diverse-composers/" style="color:#438d35;">here</a>'
 
-- album: homepage
-  image: hippocrene-quartet-2023.jpg
-  caption: "This is the caption."
+# - album: homepage
+#   image: hippocrene-quartet-2023.jpg
+#   caption: "This is the caption."
 
-- album: homepage
-  image: sax-camp-2022-large-ensemble.jpg
-  caption: "This is the caption."
+# - album: homepage
+#   image: sax-camp-2022-large-ensemble.jpg
+#   caption: "This is the caption."
 
-- album: homepage
-  image: sax-camp-2022-large-ensemble.jpg
-  caption: "This is the caption."
+# - album: homepage
+#   image: sax-camp-2022-large-ensemble.jpg
+#   caption: "This is the caption."
 
-- album: homepage
-  image: Stetson_SOM_1510.jpg
-  caption: "This is the caption."
+# - album: homepage
+#   image: Stetson_SOM_1510.jpg
+#   caption: "This is the caption."
 
-- album: homepage
-  image: Stetson_SOM_1546.jpg
-  caption: "This is the caption."
+# - album: homepage
+#   image: Stetson_SOM_1546.jpg
+#   caption: "This is the caption."
 
-- album: homepage
-  image: vertical-with-soprano.jpg
-  caption: "This is the caption."
+# - album: homepage
+#   image: vertical-with-soprano.jpg
+#   caption: "This is the caption."
 ---
