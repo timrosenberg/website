@@ -1,6 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title: 'Timothy Rosenberg: Saxophonist, Teacher, Technologist'
+title: 'Timothy Rosenberg: Saxophonist & Teacher'
 date: 2023-07-29
 type: landing
 
@@ -22,14 +22,8 @@ sections:
       Currently, I teach saxophone at Stetson University. I have also taught at Bethune-Cookman University, Full Sail Univeristy, and Ithaca College.
   design:
     background:
-      gradient_end: '#429C80'
-      gradient_start: '#006747'
-      text_color_light: true
-      image:
-        filename: background-image.png
-        size: cover
-        position: center
-        parallax: false
+      color: rgb(236, 239, 244);
+      text_color_light: false
       
 #######################
 #      BIO BLOCK      #
@@ -88,6 +82,8 @@ sections:
             * Saxophone
             * Chamber Music
             * Improvisation
+            * Music Technology
+            * Recording & Streaming
       - title: Adjunct Instructor of Saxophone
         company: Bethune-Cookman University
         company_url: 'http://www.cookman.edu'
@@ -99,15 +95,15 @@ sections:
       - title: Course Director of Music Business
         company: Full Sail University
         company_url: 'http://www.fullsail.edu'
-        company_logo: full-sail-seal
+        company_logo: full_sail_university-seal
         location: Winter Park, FL
         date_start: '2012-03-05'
         date_end: '2023-08-11'
-        description: Teach _Talent Evaluation for A&R_ and other courses in Music Business.
+        description: Taught _Talent Evaluation for A&R_ and other courses in Music Business.
       - title: Assistant Professor of Saxophone (Sabbatic Replacement)
         company: Ithaca College
         company_url: 'http://ithaca.edu'
-        company_logo: ithaca-seal
+        company_logo: ithaca-college-seal
         location: Ithaca, NY
         date_start: '2010-08-15'
         date_end: '2011-08-15'
@@ -176,48 +172,48 @@ sections:
   design:
     columns: '2'
 
-# #######################
-# #   BLOG POSTS BLOCK  #
-# #######################
+#######################
+#   BLOG POSTS BLOCK  #
+#######################
 
-# - block: collection
-#   id: posts
-#   content:
-#     title: Recent Posts
-#     subtitle: ''
-#     text: ''
-#     # Choose how many pages you would like to display (0 = all pages)
-#     count: 5
-#     # Filter on criteria
-#     filters:
-#       folders:
-#         - post
-#       author: ""
-#       category: ""
-#       tag: ""
-#       exclude_featured: false
-#       exclude_future: false
-#       exclude_past: false
-#       publication_type: ""
-#     # Choose how many pages you would like to offset by
-#     offset: 0
-#     # Page order: descending (desc) or ascending (asc) date.
-#     order: desc
-#   design:
-#     # Choose a layout view
-#     view: compact
-#     columns: '2'
+- block: collection
+  id: posts
+  content:
+    title: Recent Posts
+    subtitle: ''
+    text: ''
+    # Choose how many pages you would like to display (0 = all pages)
+    count: 5
+    # Filter on criteria
+    filters:
+      folders:
+        - post
+      author: ""
+      category: ""
+      tag: ""
+      exclude_featured: false
+      exclude_future: false
+      exclude_past: false
+      publication_type: ""
+    # Choose how many pages you would like to offset by
+    offset: 0
+    # Page order: descending (desc) or ascending (asc) date.
+    order: desc
+  design:
+    # Choose a layout view
+    view: compact
+    columns: '2'
 
 
-# #######################
-# #    PHOTOS BLOCK     #
-# #######################
-# - block: markdown
-#   id: gallery
-#   content: 
-#     title: Gallery
-#     text: |
-#       {{< gallery album="homepage" >}}
+#######################
+#    PHOTOS BLOCK     #
+#######################
+- block: markdown
+  id: gallery
+  content: 
+    title: Gallery
+    text: |
+      {{< gallery album="homepage" >}}
 
 #######################
 #  CONFERENCES BLOCK #
@@ -280,7 +276,7 @@ sections:
       postcode: '32723'
       country: United States
       country_code: US
-    # directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+    # directions: Studio 340
     # office_hours:
     #   - 'Monday 10:00 to 13:00'
     #   - 'Wednesday 09:00 to 10:00'
@@ -310,40 +306,48 @@ sections:
         id:
       netlify:
         # Enable CAPTCHA challenge to reduce spam?
-        captcha: false
+        captcha: true
   design:
     columns: '2'
 
-# #######################
-# #  GALLERY CAPTIONS   #
-# #######################
+#######################
+#  GALLERY CAPTIONS   #
+#######################
 
-# gallery_item:
-# - album: homepage
-#   image: 2023-Feb-21-Poster.png
-#   caption: 'Recital Poster for my Faculty Recital in 2023 featuring music by composers from under-represented groups for tenor saxophone. The complete recital can be streamed <a href="/event/faculty-recital-music-for-tenor-saxophone-by-diverse-composers/" style="color:#438d35;">here</a>'
+gallery_item:
+- album: homepage
+  image: 01-2023-sax-camp-full-ensemble.jpg
+  caption: "The 2023 Stetson Saxophone Workshop combined ensemble. 77 saxophonists!"
 
-# - album: homepage
-#   image: hippocrene-quartet-2023.jpg
-#   caption: "This is the caption."
+- album: homepage
+  image: 02-2023-Feb-21-Poster.png
+  caption: 'Recital Poster for my Faculty Recital in 2023 featuring music by composers from under-represented groups for tenor saxophone. The complete recital can be streamed <a href="/event/faculty-recital-music-for-tenor-saxophone-by-diverse-composers/" style="color:#438d35;">here</a>'
 
-# - album: homepage
-#   image: sax-camp-2022-large-ensemble.jpg
-#   caption: "This is the caption."
+- album: homepage
+  image: 03-hippocrene-quartet-2023.jpg
+  caption: "The Hippocrene Saxophone Quartet in 2023. Left to right: Jeremy Williamson, George Weremchuck, Brian Smithers, Timothy Rosenberg."
 
-# - album: homepage
-#   image: sax-camp-2022-large-ensemble.jpg
-#   caption: "This is the caption."
+- album: homepage
+  image: 04-b-cu-studio.jpg
+  caption: "Members of the 2019 Bethune-Cookman Saxophone Studio. Left to right: Dr. Timothy Rosenberg, Donte May, Quaneshia Florence, Cori Daniels, Luis Esquilin, Sarah Slaughter, Esteban Parra."
 
-# - album: homepage
-#   image: Stetson_SOM_1510.jpg
-#   caption: "This is the caption."
+- album: homepage
+  image: 05-palm-key-risers.jpg
+  caption: "A close look at my beautiful blue palm key risers from Music Medic."
 
-# - album: homepage
-#   image: Stetson_SOM_1546.jpg
-#   caption: "This is the caption."
+- album: homepage
+  image: 06-full-sail-recording-session.jpg
+  caption: "Laying down some soprano saxophone tracks in the recording studios at Full Sail University."
 
-# - album: homepage
-#   image: vertical-with-soprano.jpg
-#   caption: "This is the caption."
+- album: homepage
+  image: 07-Stetson_SOM_1546.jpg
+  caption: "Playing with our saxophone ensemble in the spring of 2023."
+
+- album: homepage
+  image: 08-Stetson_SOM_1510.jpg
+  caption: "Playing with our saxophone ensemble in the spring of 2023."
+
+- album: homepage
+  image: 09-rosenberg-royannais.jpg
+  caption: "French saxophonist Damien Royannais giving a lesson to Timothy Rosenberg at the 2004 Université Européenne de Saxophone in Gap, France. Note: Timothy does not use this particular technique to teach air support. The French are very friendly."
 ---

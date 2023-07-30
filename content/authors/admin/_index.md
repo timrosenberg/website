@@ -48,6 +48,9 @@ social:
   - icon: envelope
     icon_pack: fas
     link: '/#contact'
+    label: Send me an email
+    display:
+      header: true
   - icon: mastodon
     icon_pack: fab
     link: https://mastodon.social/@timrosenberg
@@ -56,9 +59,19 @@ social:
       header: true
   - icon: facebook
     icon_pack: fab
+    label: Follow me on Facebook
     link: https://facebook.com/timothyrosenberg
+    display:
+      header: true
+  - icon: instagram
+    icon_pack: fab
+    label: Follow me on Instagram
+    link: https://www.instagram.com/timothyrosenberg/
+    display:
+      header: true
   - icon: linkedin
     icon_pack: fab
+    label: Connect with me on LinkedIn
     link: https://www.linkedin.com/in/timothyrosenberg/
 
 # Link to a PDF of your resume/CV.

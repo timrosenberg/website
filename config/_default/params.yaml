@@ -7,18 +7,19 @@
 
 appearance:
   theme_day: My Theme
-  theme_night: My Theme
+  # theme_night: My Theme
   font: classic
   font_size: L
   
 require_fancybox: true
+
 # SEO
 
 marketing:
   seo:
     site_type: Person
     local_business_type: 'Musician'
-    org_name: 'Timothy Rosenberg: Saxophonist, Teacher, Technologist'
+    org_name: 'Timothy Rosenberg: Saxophonist & Teacher'
     description: 'Timothy Rosenberg is a saxophonist based in Orlando, FL. He is currently the Visisting Assistant Professor of Saxophone at Stetson University. He teaches saxophone, music technology, jazz improvisation, and is the Director of the Stetson Summer Saxophone Workshop.'
     twitter: 'timrosenberg'
   analytics:

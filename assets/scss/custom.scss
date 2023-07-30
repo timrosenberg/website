@@ -172,17 +172,35 @@ b, strong {font-weight: 700 !important;}
     display: none;
 }
 
-// #events .see-all a{
-//         background-color: white;
-//         color: black;
-//         border: 2px solid green;
-//         padding: 10px 20px;
-//         text-align: center;
-//         text-decoration: none;
-//         display: inline-block;
-//       }
-      
-// #events .see-all a:hover, a:active {
-//         background-color: green;
-//         color: white;
-// }
+
+// Hide B&W Image in iPhone Dark Mode
+@media all and  (max-width: 992px){
+    #profile > img {
+        display: none;
+    }
+    #about{
+        padding-top: 0;
+        }
+}
+
+// Hide gallery on phones
+@media all and (max-width: 768px){
+    #gallery {
+        display: none;
+    }
+}
+
+// Hero Section Text Styles
+#section-hero h1 {
+    color:#006747;
+    font-weight: bolder;
+    font-size: 4rem;
+}
+#section-hero p {
+    color:rgba(0, 0, 0, 0.8)
+}
+
+// Don't underline Creative Commons Images
+body > div.page-footer > div > footer > p.powered-by.footer-license-icons :hover{
+    text-decoration: none;
+}
