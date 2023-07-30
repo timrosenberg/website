@@ -95,7 +95,7 @@ sections:
       - title: Course Director of Music Business
         company: Full Sail University
         company_url: 'http://www.fullsail.edu'
-        company_logo: full_sail_university-seal
+        company_logo: full-sail-university-seal
         location: Winter Park, FL
         date_start: '2012-03-05'
         date_end: '2023-08-11'
