@@ -17,7 +17,7 @@ main:
     url: '#accomplishments'
     weight: 40
   - name: Blog
-    url: ''
+    url: '#posts'
     weight: 50
   - name: Events
     url: '#events'
