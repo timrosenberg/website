@@ -1,7 +1,7 @@
 ---
-title: "Faculty Recital: Dione Chandler, Oboe"
-event: Wanamaker's _Double Cadenza_ for oboe and tenor saxophone
-event_url: https://www.youtube.com/watch?v=OrozVaHJAes
+title: "Faculty Recital: Dione Chandler, Oboe."
+event: "Faculty Recital: Dione Chandler, Oboe"
+event_url: 
 location: Stetson University
 address:
   street:
@@ -9,7 +9,7 @@ address:
   region: FL
   postcode:
   country:
-summary: Stetson University faculty oboist, Dione Chandler and I will perform Gregory Wanamaker's _Double Cadenza_ for oboe and tenor saxophone. The piece is virtuosic and exciting at every turn. Watch us live or view the archived performance later!
+summary: Stetson University faculty oboist, Dione Chandler and I will perform Gregory Wanamaker's _Double Cadenza_ for oboe and tenor saxophone. The piece parodies the virtuosity and improvisitory nature of a typical cadenza. It is humerous and exciting making it a lot of fun for us to play.
 abstract:
 tags: [Performances]
 
@@ -20,10 +20,10 @@ date: 2023-11-15T19:30:00-04:00
 all_day: false
 
 # Schedule page publish date (NOT event date).
-publishDate: 
+publishDate: 2023-10-10T16:45:35-04:00
 
 # Is this a featured event? (true/false)
-featured: true
+featured: false
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
@@ -36,7 +36,7 @@ image:
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
 links:
-- name: Watch Live on YouTube
+- name: Watch on YouTube
   url: https://www.youtube.com/@stetsonuniversityschoolofmusic/streams
   icon_pack: fab
   icon: youtube
