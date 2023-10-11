@@ -90,6 +90,6 @@ highlight_name: true
 
 I am the Visiting Assistant Professor of Saxophone at Stetson University. My teaching interests include saxophone, chamber music, avant-garde music, jazz improvisation, and music technology.
 
-I frequently perform with several ensembles, including the Hippocrene Saxophone Quartet, the Brevard Symphony Orchestra and the Binghamton Symphony Orchestra. In the past I also performed with the H2 Quartet, the Hyperbaton Ensemble and the Cayuga Saxophone Quartet. I can be heard on _Intersecciones_ on the Ashes Records label and _Times & Spaces_ on Blue Griffin Records.
+I frequently perform with several ensembles, including the Hippocrene Saxophone Quartet, the Orlando Symphony Orchestera, and the Brevard Symphony Orchestra. In the past I also performed with the H2 Quartet, the Hyperbaton Ensemble and the Cayuga Saxophone Quartet. I can be heard on _Intersecciones_ on the Ashes Records label and _Times & Spaces_ on Blue Griffin Records.
 
 <!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->
