@@ -3,7 +3,7 @@
 
 title: "Books I Read in 2023: Addendum"
 subtitle: ""
-summary: "I read one more book in 2023 and it was _fantastic_"
+summary: "I read one more book in 2023 and it was _fantastic_."
 authors: [Tim]
 tags: []
 categories: []
