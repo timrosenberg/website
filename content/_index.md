@@ -81,6 +81,7 @@ sections:
 
             * Saxophone
             * Chamber Music
+            * Jazz Ensemble
             * Improvisation
             * Music Technology
             * Recording & Streaming
