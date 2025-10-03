@@ -1,7 +1,7 @@
 ---
 title: "Why I Built Rush Music"
 date: 2025-10-03
-draft: true
+draft: false
 description: "A music app based on searching for the music you already have."
 tags: ["music", "app", "project"]
 ---
