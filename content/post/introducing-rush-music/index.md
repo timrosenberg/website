@@ -6,8 +6,6 @@ description: "A music app based on searching for the music you already have."
 tags: ["music", "app", "project"]
 ---
 
-![](IMG_5844.PNG "Rush Music Search Screen")
-
 I have spent decades carefully curating my music library. It is one of my most treasured things. The library began as stacks of CDs—long gone now—but my habits never shifted to a world where music is rented for the short term. If you know me, you can guess the result: my library is… _diverse_. It includes some truly weird recordings you will never find on a streaming service.
 
 As a classical musician and saxophonist, I keep _many_ recordings of the same piece. That runs against how popular music—and most streaming services—work. In pop, there is usually one definitive version of a song (plus the odd live cut). Add “Hey Jude” to your library and it will be there. You can even ask Siri to “play ‘Hey Jude,’” and she will probably get it right. Try asking, “Play Part II of Mahler’s Eighth Symphony conducted by Pierre Boulez,” and see what you get.
